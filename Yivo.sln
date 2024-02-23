@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{03872482-7930-4C0E-8223-F660B154D5F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yivo.Bot", "src\Yivo.Bot\Yivo.Bot.csproj", "{CBE05B62-B616-42FF-B6D3-5391CAD19647}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yivo.Core", "src\Yivo.Core\Yivo.Core.csproj", "{58EE5038-1469-44B9-825C-0ADAFD38D986}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yivo.Infrastructure", "src\Yivo.Infrastructure\Yivo.Infrastructure.csproj", "{5A67DC7C-72B4-4E91-BA14-45876E555239}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBE05B62-B616-42FF-B6D3-5391CAD19647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE05B62-B616-42FF-B6D3-5391CAD19647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE05B62-B616-42FF-B6D3-5391CAD19647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE05B62-B616-42FF-B6D3-5391CAD19647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58EE5038-1469-44B9-825C-0ADAFD38D986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58EE5038-1469-44B9-825C-0ADAFD38D986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58EE5038-1469-44B9-825C-0ADAFD38D986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58EE5038-1469-44B9-825C-0ADAFD38D986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A67DC7C-72B4-4E91-BA14-45876E555239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A67DC7C-72B4-4E91-BA14-45876E555239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A67DC7C-72B4-4E91-BA14-45876E555239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A67DC7C-72B4-4E91-BA14-45876E555239}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBE05B62-B616-42FF-B6D3-5391CAD19647} = {03872482-7930-4C0E-8223-F660B154D5F8}
+		{58EE5038-1469-44B9-825C-0ADAFD38D986} = {03872482-7930-4C0E-8223-F660B154D5F8}
+		{5A67DC7C-72B4-4E91-BA14-45876E555239} = {03872482-7930-4C0E-8223-F660B154D5F8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A2945B0-AAC2-430C-B7BD-C98529983D55}
+	EndGlobalSection
+EndGlobal
